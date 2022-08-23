@@ -1,0 +1,76 @@
+.card {
+  background-color: #fff;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px #ccc;
+}
+
+.details,
+.figure {
+  display: flex;
+  align-items: center;
+}
+
+.figure .img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure .img span + img {
+  width: 0;
+  height: 0;
+}
+
+.figure .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.figure .img span {
+  font-size: 200%;
+}
+
+.details {
+  flex-direction: column;
+  margin-left: 15px;
+  align-items: normal;
+}
+
+.details p {
+  margin: 0;
+  font-size: 130%;
+}
+
+.counts {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.number {
+  font-size: 15px;
+  text-align: right;
+  width: 120px;
+}
+
+.number p {
+  margin: 0;
+  font-size: 80%;
+}
+
+.number b {
+  margin-top: 10px;
+  font-size: 160%;
+  display: block;
+}
+
+.chart {
+  overflow: hidden;
+}
