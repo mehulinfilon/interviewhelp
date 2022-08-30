@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import "./App.css";
 import Card from "./component/Card/Card";
 import logsData from "./utils/logs.json";
