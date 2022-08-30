@@ -32,11 +32,11 @@ function Card(data) {
     <div className={Style.card}>
       <div className={Style.figure}>
         <div className={Style.img}>
-          <Image src={data.avatar} alt={data.name} />
+          <Image src={data.avatar} alt={data.Name} />
         </div>
 
         <div className={Style.details}>
-          <p>{data.name}</p>
+          <p>{data.Name}</p>
           <span>{data.occupation}</span>
         </div>
       </div>
